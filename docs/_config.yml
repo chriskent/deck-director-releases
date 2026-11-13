@@ -1,0 +1,13 @@
+title: Deck Director
+description: Switch your Stream Deck's pages from any app that can send a UDP or TCP message.
+remote_theme: just-the-docs/just-the-docs@v0.10.1
+plugins:
+  - jekyll-remote-theme
+color_scheme: dark
+logo: /assets/icon.png
+search_enabled: true
+aux_links:
+  "Download": "https://github.com/chriskent/deck-director-releases/releases/latest"
+aux_links_new_tab: false
+back_to_top: true
+footer_content: "Deck Director by MX Design. Not affiliated with Elgato."
