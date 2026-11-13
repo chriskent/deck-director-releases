@@ -1,0 +1,24 @@
+name: Feature request
+description: Suggest something Deck Director should do.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: For an open-ended idea you'd like to talk through first, [Ideas in Discussions](https://github.com/chriskent/deck-director-releases/discussions/categories/ideas) may suit better.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The situation, rather than the solution. "When I land, I want the deck to…"
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: A new message, key, setting or deck type, for example.
+  - type: input
+    id: sender
+    attributes:
+      label: What sends the messages?
+      placeholder: Hangar Control, a script, …

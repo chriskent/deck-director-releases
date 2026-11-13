@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://github.com/chriskent/deck-director-releases/discussions/categories/q-a
+    about: How do I…? Setting up Hangar Control or another app? Ask in Discussions.
+  - name: Help pages
+    url: https://chriskent.github.io/deck-director-releases/
+    about: Getting started, every message, adopting profiles and troubleshooting.

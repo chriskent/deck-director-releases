@@ -8,6 +8,7 @@ logo: /assets/icon.png
 search_enabled: true
 aux_links:
   "Download": "https://github.com/chriskent/deck-director-releases/releases/latest"
+  "Discussions": "https://github.com/chriskent/deck-director-releases/discussions"
 aux_links_new_tab: false
 back_to_top: true
 footer_content: "Deck Director by MX Design. Not affiliated with Elgato."

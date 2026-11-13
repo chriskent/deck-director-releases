@@ -41,3 +41,4 @@ Stream Deck + XL, Stream Deck XL, Stream Deck +, Virtual Stream Deck and Stream 
 | [Hangar Control](hangar-control) | Setting up network message keys |
 | [Testing and other apps](testing) | The test tool, PowerShell, and sending from your own software |
 | [Troubleshooting](troubleshooting) | Good to know, and what to check when nothing happens |
+| [Get help](support) | Ask a question, report a bug or suggest a feature |

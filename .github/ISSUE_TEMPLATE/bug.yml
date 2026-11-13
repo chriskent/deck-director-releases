@@ -1,0 +1,69 @@
+name: Bug report
+description: Something doesn't work as the help pages say it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Please check [Troubleshooting](https://chriskent.github.io/deck-director-releases/troubleshooting) first.
+
+        **This is public.** Anything you paste here, including logs, can be read by anyone.
+  - type: input
+    id: ping
+    attributes:
+      label: ping reply
+      description: Send `ping` with Start menu › Deck Director › Send a test message, and paste the reply. It includes the version.
+      placeholder: ok pong uk.co.mxdesign.deckdirector 1.0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: decks
+    attributes:
+      label: Which deck?
+      multiple: true
+      options:
+        - Stream Deck + XL
+        - Stream Deck XL
+        - Stream Deck +
+        - Virtual Stream Deck
+        - Stream Deck Mobile
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: sd-version
+    attributes:
+      label: Stream Deck app version
+      description: Stream Deck › Preferences › General, or the About box.
+      placeholder: "7.5.1"
+  - type: input
+    id: sender
+    attributes:
+      label: What sends the messages?
+      placeholder: Hangar Control, the test tool, a script…
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: The message you sent, the reply you got, and what you expected instead.
+      placeholder: |
+        Sent: page:AVN
+        Reply: error unknown page "AVN" (pages: …)
+        Expected: the deck to switch to AVN
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Adopt profile …
+        2. Send …
+  - type: textarea
+    id: log
+    attributes:
+      label: Log (optional)
+      description: |
+        From `%APPDATA%\Elgato\StreamDeck\Plugins\uk.co.mxdesign.deckdirector.sdPlugin\logs`, the newest file ending `.0.log`. Paste only the lines around the problem.
+        **Check it first:** logs include your profile names and Windows paths, which may include your user name.
+      render: text

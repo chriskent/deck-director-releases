@@ -4,7 +4,7 @@ Switch your Stream Deck's pages from any app that can send a UDP or TCP message:
 
 ![Every supported deck](docs/assets/thumbnail.png)
 
-**[Download the latest version](https://github.com/chriskent/deck-director-releases/releases/latest)** · **[Help pages](https://chriskent.github.io/deck-director-releases/)**
+**[Download the latest version](https://github.com/chriskent/deck-director-releases/releases/latest)** · **[Help pages](https://chriskent.github.io/deck-director-releases/)** · **[Ask a question](https://github.com/chriskent/deck-director-releases/discussions/categories/q-a)** · **[Report a bug](https://github.com/chriskent/deck-director-releases/issues/new/choose)**
 
 - Go to a page by name or number, or step to the next or previous page.
 - Back follows a breadcrumb; Previous retraces your exact path; Home goes home.
