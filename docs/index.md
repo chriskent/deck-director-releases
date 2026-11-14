@@ -21,7 +21,7 @@ Stream Deck can't be told to change page by another program. Deck Director liste
 - **Back** follows a breadcrumb as many levels deep as you go; **Previous** retraces your exact path.
 - **Home** returns to the page with the Set Home Page key.
 - Choose the **deck and profile** in the message, or let Deck Director use the one showing.
-- Works on your **own profiles**: adopt up to 10 per deck type.
+- Works on your **own profiles**: adopt up to 50, shared across all your decks.
 - Every message gets a reply starting `ok` or `error`, so you can see what happened.
 
 ![Every supported deck](assets/thumbnail.png)

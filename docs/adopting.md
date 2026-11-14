@@ -31,7 +31,7 @@ Press it twice again to release the profile.
 
 ## Limits
 
-Up to **10 profiles per deck type** can be adopted at once, on Stream Deck + XL, XL, Stream Deck +, Virtual Stream Deck and Stream Deck Mobile.
+Up to **50 profiles** can be adopted at once, shared across all your decks: any mix of Stream Deck + XL, XL, Stream Deck +, Virtual Stream Deck and Stream Deck Mobile. The adopt tool's list shows how many are in use. Releasing a profile frees its place for another.
 
 ## Don't duplicate an adopted profile
 

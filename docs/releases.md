@@ -7,6 +7,11 @@ nav_order: 9
 
 Downloads for every version are on the [Releases page](https://github.com/chriskent/deck-director-releases/releases).
 
+## 1.1.0
+
+- **50 adoption slots, shared across all your decks.** Before, each deck type had 10 of its own; now any mix works, such as 30 on a Stream Deck + XL and 20 on a Virtual Stream Deck. Profiles you've already adopted carry on as they are.
+- The adopt tool's list shows how many of the 50 are in use.
+
 ## 1.0.1
 
 The first release from GitHub. The same features as 1.0.0, plus:
