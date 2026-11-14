@@ -7,6 +7,12 @@ nav_order: 9
 
 Downloads for every version are on the [Releases page](https://github.com/chriskent/deck-director-releases/releases).
 
+## 1.1.2
+
+- Deck Director remembers which profile each deck was showing, so after a restart a Go To Page key aimed at another deck, or a message without `profile:`, keeps working.
+- The back and previous trails are kept across restarts.
+- Clearer messages in the Go To Page key's settings when another deck's pages can't be listed.
+
 ## 1.1.1
 
 - The Adopt Profile key shows how many of the 50 slots are in use, e.g. "6/50 used", or "0 free" when they're all taken.

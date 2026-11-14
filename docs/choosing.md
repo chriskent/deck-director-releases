@@ -27,7 +27,7 @@ Keys and names aren't case-sensitive. Names can contain spaces and `:` but not `
 
 ## How Deck Director knows which profile is showing
 
-Stream Deck doesn't tell plugins which profile is on a deck. Deck Director finds out from its own keys: when a Set Home Page or Go To Page key comes into view, it knows that profile is showing. If none has appeared since its last switch, it assumes the profile it switched to last. That's why page 1 of each profile you control should have a Set Home Page key.
+Stream Deck doesn't tell plugins which profile is on a deck. Deck Director finds out from its own keys: when a Set Home Page or Go To Page key comes into view, it knows that profile is showing. If none has appeared since its last switch, it assumes the profile it switched to last. It remembers both across restarts: Stream Deck reopens each deck where it left off, and the first Deck Director key to appear corrects it if something changed. That's why page 1 of each profile you control should have a Set Home Page key.
 
 ## The Deck Director keys
 

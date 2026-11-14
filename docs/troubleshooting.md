@@ -19,6 +19,14 @@ Test builds before 1.0 used port 50555. Windows can reserve ports from 49152 upw
 
 Just after Stream Deck restarts, messages can get this for a few seconds while the deck reconnects.
 
+## "Deck Director doesn't know what that deck is showing yet"
+
+Seen in a Go To Page key's settings when its **Device** is another deck, or as a reply to a message without `profile:`. Deck Director learns what a deck is showing when one of its keys appears there, or when it switches that deck itself. On that deck, show a page with a Deck Director key on it (such as Set Home Page), then reopen the key's settings.
+
+Before 1.1.2 this was forgotten every time Stream Deck or the PC restarted. Update to the [latest release](https://github.com/chriskent/deck-director-releases/releases/latest) and it's remembered.
+
+If the settings say the deck is showing a profile that isn't adopted, a Smart Profile or a manual pick has moved it to another profile: [adopt](adopting) that one, or go back to an adopted profile.
+
 ## "error unknown page …" or the wrong profile
 
 - Send `list` to see the profiles and pages Deck Director can switch, and what each deck is showing.

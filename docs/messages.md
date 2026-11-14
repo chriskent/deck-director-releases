@@ -28,7 +28,7 @@ Deck Director keeps two trails per deck:
 - **The breadcrumb** (`page:back`) is the path down to where you are. Going to a page already in it cuts it back to there, and `+1`/`-1` replace the last page rather than adding to it. Main › FPL › Approach, then back twice, gives FPL then Main.
 - **The history** (`page:previous`) is every page you visited, side trips included. Main › Views › AVN › Views › FPL: back goes Views, Main; previous goes Views, AVN, Views, Main.
 
-Both are forgotten when Stream Deck restarts. `stack:clear` forgets them on purpose.
+Both are kept when Stream Deck or the PC restarts (since 1.1.2). `stack:clear` forgets them on purpose.
 
 ## Other messages
 
