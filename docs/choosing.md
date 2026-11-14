@@ -35,7 +35,10 @@ Stream Deck doesn't tell plugins which profile is on a deck. Deck Director finds
 : Put it on R1C1 of page 1. That page becomes the profile's home (`page:home` goes there), and pressing it goes home and restarts the breadcrumb.
 
 **Go To Page**
-: A key that switches pages by itself, no other app needed. Its settings list the profile's pages, plus next, previous, back, home, first, last or a custom value. **Device**: leave it as *This deck*, or pick another deck for the key to control.
+: A key that switches pages by itself, no other app needed. Its settings:
+  - **Device**: leave it as *This deck*, or pick another deck for the key to control.
+  - **Profile**: leave it as *This profile* (or *Whatever it's showing* for another deck), or pick an adopted profile to jump into, such as a second profile of panels. `back` then returns to the page you pressed it on.
+  - **Page**: the chosen profile's pages, plus next, previous, back, home, first, last or a custom value.
 
 **Adopt Profile**
 : Shows whether the profile it's on is adopted and how many of the 50 adoption slots are in use, and adopts or releases it. See [Adopting profiles](adopting#what-the-key-shows).

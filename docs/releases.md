@@ -7,6 +7,11 @@ nav_order: 9
 
 Downloads for every version are on the [Releases page](https://github.com/chriskent/deck-director-releases/releases).
 
+## 1.1.3
+
+- Go To Page keys have a **Profile** setting: pick any adopted profile, and the Page list shows its pages.
+- A key aimed at another profile no longer shows a false "has no page" warning.
+
 ## 1.1.2
 
 - Deck Director remembers which profile each deck was showing, so after a restart a Go To Page key aimed at another deck, or a message without `profile:`, keeps working.
