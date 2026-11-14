@@ -38,4 +38,4 @@ Stream Deck doesn't tell plugins which profile is on a deck. Deck Director finds
 : A key that switches pages by itself, no other app needed. Its settings list the profile's pages, plus next, previous, back, home, first, last or a custom value. **Device**: leave it as *This deck*, or pick another deck for the key to control.
 
 **Adopt Profile**
-: Shows whether the profile it's on is adopted, and adopts or releases it. See [Adopting profiles](adopting).
+: Shows whether the profile it's on is adopted and how many of the 50 adoption slots are in use, and adopts or releases it. See [Adopting profiles](adopting#what-the-key-shows).

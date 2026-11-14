@@ -24,7 +24,28 @@ Adoption relies on undocumented Stream Deck behaviour. It's been tested on Strea
 
 Press it twice again to release the profile.
 
-The key also shows how many of the 50 adoption slots are in use, such as **6/50 used**, or **0 free** when they're all taken. Its settings show the full count (in use, free and total), and **Show slots in use** turns the count on the key off.
+## What the key shows
+
+![The Adopt Profile key's states](assets/adopt-key-states.png)
+
+The top line says whether the profile the key is on is adopted. The bottom line counts the 50 adoption slots, which are shared by all your decks:
+
+| Key shows | Meaning |
+|---|---|
+| **Adopted** · 6/50 used | This profile is adopted. 6 of the 50 slots are in use across all your decks. |
+| **Not adopted** · 6/50 used | Press twice to adopt this profile; it takes one of the 44 free slots. |
+| **Not adopted** · 0 free | Every slot is in use. Release a profile you no longer switch to make room. |
+| **Press again to adopt** | The first press. Press again within 4 seconds, or wait and nothing happens. |
+| **Built in** | Deck Director's own test profile, which doesn't need adopting. |
+| **Other plugin** | The profile belongs to another plugin, so it can't be adopted. |
+| **Copied key** | The key was copied along with a duplicated profile. Delete it and drag in a new one. |
+
+### The key's settings
+
+- **Status** explains what the key shows for this profile.
+- **Slots** gives the full count, e.g. *6 in use · 44 free · 50 total*.
+- **Show slots in use** puts the count on the key. Untick it for a key that shows the status only.
+- **Ask for a second press first** guards against an accidental press. Untick it to adopt or release with one press.
 
 ## With the adopt tool
 
@@ -33,7 +54,7 @@ The key also shows how many of the 50 adoption slots are in use, such as **6/50 
 
 ## Limits
 
-Up to **50 profiles** can be adopted at once, shared across all your decks: any mix of Stream Deck + XL, XL, Stream Deck +, Virtual Stream Deck and Stream Deck Mobile. The adopt tool's list shows how many are in use. Releasing a profile frees its place for another.
+Up to **50 profiles** can be adopted at once, shared across all your decks: any mix of Stream Deck + XL, XL, Stream Deck +, Virtual Stream Deck and Stream Deck Mobile. The Adopt Profile key and the adopt tool's list both show how many are in use. Releasing a profile frees its slot for another.
 
 ## Don't duplicate an adopted profile
 

@@ -23,7 +23,7 @@ Stream Deck only lets a plugin switch profiles it owns. To let Deck Director swi
 
 1. Drag the **Adopt Profile** key onto any page of the profile.
 2. Press it twice. Stream Deck closes and reopens by itself.
-3. The key now shows **Adopted**.
+3. The key now shows **Adopted**, and how many of the 50 adoption slots are in use, such as **6/50 used**.
 
 See [Adopting profiles](adopting) for what this changes and how to undo it.
 
