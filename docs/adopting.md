@@ -24,6 +24,8 @@ Adoption relies on undocumented Stream Deck behaviour. It's been tested on Strea
 
 Press it twice again to release the profile.
 
+The key also shows how many of the 50 adoption slots are in use, such as **6/50 used**, or **0 free** when they're all taken. Its settings show the full count (in use, free and total), and **Show slots in use** turns the count on the key off.
+
 ## With the adopt tool
 
 1. Start menu › Deck Director › **Adopt a Stream Deck profile**.
