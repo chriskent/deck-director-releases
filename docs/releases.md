@@ -7,6 +7,10 @@ nav_order: 9
 
 Downloads for every version are on the [Releases page](https://github.com/chriskent/deck-director-releases/releases).
 
+## 1.2.2
+
+- Console message builder: **Include** tick boxes beside Device and Profile, so either can be chosen to list pages but left out of the message.
+
 ## 1.2.1
 
 - The Deck Director Console has Flight Sim Manager's look: dark surfaces with the amber accent, Roboto, Material icons and buttons, and coloured status pills.
