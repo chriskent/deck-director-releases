@@ -14,6 +14,8 @@ Give a Stream Deck key Hangar Control's **send network message** action:
 | Port | `41555` |
 | Payload | `page:AVN` (the page to go to; one key per page) |
 
+**Tip:** Start menu › Deck Director › **Deck Director Console** builds the payload for you: pick the deck, profile and page, send it to try it, then copy it into Hangar Control. See [Testing and other apps](testing#the-deck-director-console).
+
 ![Deck Director keys on a Stream Deck + XL](assets/stream-deck-plus-xl.png)
 
 ## Handy keys

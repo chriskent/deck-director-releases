@@ -7,6 +7,10 @@ nav_order: 9
 
 Downloads for every version are on the [Releases page](https://github.com/chriskent/deck-director-releases/releases).
 
+## 1.2.0
+
+- **Deck Director Console**, a new Start menu tool: see whether Deck Director is answering, every deck and its profiles with adopt switches, with a wildcard filter on each deck, and a message builder that copies or sends the message it builds.
+
 ## 1.1.3
 
 - Go To Page keys have a **Profile** setting: pick any adopted profile, and the Page list shows its pages.

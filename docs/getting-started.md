@@ -12,10 +12,11 @@ nav_order: 2
 1. Download `uk.co.mxdesign.deckdirector.streamDeckPlugin` from the [latest release](https://github.com/chriskent/deck-director-releases/releases/latest).
 2. Double-click it and click **Install** in Stream Deck.
 
-Deck Director appears in the Stream Deck app's action list under the category **Deck Director**. It also installs two helper tools to `%LOCALAPPDATA%\DeckDirector`, with Start menu entries under **Deck Director**:
+Deck Director appears in the Stream Deck app's action list under the category **Deck Director**. It also installs three helper tools to `%LOCALAPPDATA%\DeckDirector`, with Start menu entries under **Deck Director**:
 
 - **Send a test message**: type a message, see the reply.
 - **Adopt a Stream Deck profile**: the tool behind the Adopt Profile key.
+- **Deck Director Console**: a page in your browser showing your decks and profiles, with adopt switches and a message builder. See [Testing and other apps](testing#the-deck-director-console).
 
 ## 2. Adopt your profile
 
