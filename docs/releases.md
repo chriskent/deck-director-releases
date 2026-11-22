@@ -7,6 +7,10 @@ nav_order: 9
 
 Downloads for every version are on the [Releases page](https://github.com/chriskent/deck-director-releases/releases).
 
+## 1.2.3
+
+- Fixed: profiles on a newer revision of the Stream Deck XL (model `20GAT9902`) showed as unsupported and couldn't be adopted. Every revision of the XL, Stream Deck + and Stream Deck + XL is now recognised.
+
 ## 1.2.2
 
 - Console message builder: **Include** tick boxes beside Device and Profile, so either can be chosen to list pages but left out of the message.
