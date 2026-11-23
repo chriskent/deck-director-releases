@@ -1,6 +1,6 @@
 ---
 title: Choosing the deck, profile and page
-nav_order: 4
+nav_order: 6
 ---
 
 # Choosing the deck, profile and page

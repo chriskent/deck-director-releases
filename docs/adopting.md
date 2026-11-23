@@ -1,11 +1,19 @@
 ---
 title: Adopting profiles
-nav_order: 5
+nav_order: 7
 ---
 
 # Adopting profiles
 
 Stream Deck only lets a plugin switch profiles that belong to it. Adopting marks one of **your** profiles as Deck Director's, so it can switch its pages.
+
+There are three ways to adopt a profile. They all make the same change, so use whichever suits you:
+
+| | Best for |
+|---|---|
+| [**Deck Director Console**](#with-the-deck-director-console-easiest) | Seeing all your decks and profiles at once, and adopting with one switch. **Start here.** |
+| [**Adopt Profile key**](#with-the-adopt-profile-key) | Adopting from the deck itself, while you're editing the profile. |
+| [**Adopt tool**](#with-the-adopt-tool) | A text-only tool, if you'd rather type. |
 
 ## What adopting changes
 
@@ -16,7 +24,19 @@ Stream Deck must be closed while the file is changed, so adopting or releasing *
 {: .note }
 Adoption relies on undocumented Stream Deck behaviour. It's been tested on Stream Deck 7.5.
 
-## With the Adopt Profile key (easiest)
+## With the Deck Director Console (easiest)
+
+![Decks and profiles in the Deck Director Console, with an Adopted switch for each profile](assets/console-deck.png)
+
+1. Start menu › Deck Director › **Deck Director Console**. It opens in your browser.
+2. Find your profile under its deck. On a long list, type part of its name in the deck's filter box, such as `C172` or `GA-*`.
+3. Turn on its **Adopted** switch and confirm. Stream Deck closes and reopens, and the status changes to **Adopted · slot** and a number.
+
+Turn the switch off to release the profile.
+
+The Console also shows how many of the 50 slots are in use, what each deck is showing, and which profiles belong to another plugin. Once a profile is adopted, its **message builder** writes and tests the messages that switch it. See [Deck Director Console](console).
+
+## With the Adopt Profile key
 
 1. Drag **Adopt Profile** (category Deck Director) onto any page of the profile.
 2. Press it twice. The second press must come within 4 seconds; the key's settings can turn that off.
@@ -24,7 +44,7 @@ Adoption relies on undocumented Stream Deck behaviour. It's been tested on Strea
 
 Press it twice again to release the profile.
 
-## What the key shows
+### What the key shows
 
 ![The Adopt Profile key's states](assets/adopt-key-states.png)
 
@@ -49,12 +69,14 @@ The top line says whether the profile the key is on is adopted. The bottom line 
 
 ## With the adopt tool
 
+The older, text-only tool. The Console does the same and shows more, but this still works, and it can release profiles even after Deck Director is uninstalled.
+
 1. Start menu › Deck Director › **Adopt a Stream Deck profile**.
 2. Type the profile's number to adopt it, or `r` and its number to release it.
 
 ## Limits
 
-Up to **50 profiles** can be adopted at once, shared across all your decks: any mix of Stream Deck + XL, XL, Stream Deck +, Stream Deck (15-key), Mini, Neo, Virtual Stream Deck and Stream Deck Mobile. The Adopt Profile key and the adopt tool's list both show how many are in use. Releasing a profile frees its slot for another.
+Up to **50 profiles** can be adopted at once, shared across all your decks: any mix of the [supported decks](decks). The Console, the Adopt Profile key and the adopt tool all show how many are in use. Releasing a profile frees its slot for another.
 
 ## Don't duplicate an adopted profile
 

@@ -12,21 +12,25 @@ nav_order: 2
 1. Download `uk.co.mxdesign.deckdirector.streamDeckPlugin` from the [latest release](https://github.com/chriskent/deck-director-releases/releases/latest).
 2. Double-click it and click **Install** in Stream Deck.
 
-Deck Director appears in the Stream Deck app's action list under the category **Deck Director**. It also installs three helper tools to `%LOCALAPPDATA%\DeckDirector`, with Start menu entries under **Deck Director**:
+Deck Director appears in the Stream Deck app's action list under the category **Deck Director**. It also adds three tools to the Start menu, under **Deck Director**:
 
+- **Deck Director Console**: a page in your browser showing your decks and profiles, with adopt switches and a message builder. **This is the one to start with.** See [Deck Director Console](console).
+- **Adopt a Stream Deck profile**: a text-only adopt tool.
 - **Send a test message**: type a message, see the reply.
-- **Adopt a Stream Deck profile**: the tool behind the Adopt Profile key.
-- **Deck Director Console**: a page in your browser showing your decks and profiles, with adopt switches and a message builder. See [Testing and other apps](testing#the-deck-director-console).
+
+It works on the Stream Deck + XL, XL, +, 15-key Stream Deck, Neo and Mini, and on the Virtual Stream Deck and Stream Deck Mobile. See [Supported decks](decks).
 
 ## 2. Adopt your profile
 
 Stream Deck only lets a plugin switch profiles it owns. To let Deck Director switch one of yours:
 
-1. Drag the **Adopt Profile** key onto any page of the profile.
-2. Press it twice. Stream Deck closes and reopens by itself.
-3. The key now shows **Adopted**, and how many of the 50 adoption slots are in use, such as **6/50 used**.
+1. Open Start menu › Deck Director › **Deck Director Console**.
+2. Find your profile under its deck, and turn on its **Adopted** switch.
+3. Confirm. Stream Deck closes and reopens by itself, and the profile shows **Adopted · slot** and a number.
 
-See [Adopting profiles](adopting) for what this changes and how to undo it.
+![A deck in the Deck Director Console, with its profiles and Adopted switches](assets/console-deck.png)
+
+You can also adopt from the deck itself, with the **Adopt Profile** key. See [Adopting profiles](adopting) for both, what adopting changes and how to undo it.
 
 ## 3. Add a Set Home Page key
 
@@ -34,14 +38,10 @@ Drag **Set Home Page** onto the top-left key (R1C1) of page 1. That page becomes
 
 ## 4. Send a message
 
-Open **Send a test message** from the Start menu and type:
+In the Console's **message builder**, choose your deck, your profile and a page, then click **Send**. The deck switches, and Deck Director's reply appears underneath, starting `ok`.
 
-```
-ping
-list
-page:+1
-```
+![The Console's message builder, with the message, Send and the reply](assets/console-builder.png)
 
-`ping` checks Deck Director is listening, `list` shows the profiles and pages it can switch, and `page:+1` moves to the next page. Then set up your app: see [Hangar Control](hangar-control) or [Testing and other apps](testing).
+**Copy** the message into your app. Then set it up: see [Hangar Control](hangar-control) or [Testing and other apps](testing).
 
 Messages go to **127.0.0.1, port 41555**, by UDP or TCP.

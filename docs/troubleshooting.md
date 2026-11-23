@@ -1,12 +1,13 @@
 ---
 title: Troubleshooting
-nav_order: 8
+nav_order: 10
 ---
 
 # Troubleshooting
 
 ## No reply at all
 
+- Open the [Deck Director Console](console). Its status pill says whether Deck Director is answering, and why not.
 - Check Stream Deck is running and Deck Director is installed.
 - Send `ping` over the other protocol. A reply saying `tcp not listening` or `udp not listening` gives the reason.
 - Check the port: `41555`, or whatever `%LOCALAPPDATA%\DeckDirector\config.json` says.
@@ -27,8 +28,15 @@ Before 1.1.2 this was forgotten every time Stream Deck or the PC restarted. Upda
 
 If the settings say the deck is showing a profile that isn't adopted, a Smart Profile or a manual pick has moved it to another profile: [adopt](adopting) that one, or go back to an adopted profile.
 
+## A profile shows as unsupported
+
+The adopt tool says *"… is for a 20G…, which Deck Director doesn't support yet"*, or lists the profile as *unsupported*. The profile was made on a deck Deck Director doesn't recognise. Open the [Deck Director Console](console#each-deck), note the deck's model number, and compare it with [Supported decks](decks#model-numbers).
+
+Before 1.2.3 newer Stream Deck XLs (`20GAT9902`) showed this, and before 1.3.0 the 15-key Stream Deck, Neo and Mini did, so first update to the [latest release](https://github.com/chriskent/deck-director-releases/releases/latest). If your deck is still unsupported, [say so in Discussions](https://github.com/chriskent/deck-director-releases/discussions) with its model number.
+
 ## "error unknown page …" or the wrong profile
 
+- The [Deck Director Console](console) shows every deck, what it's showing, and which profiles are adopted.
 - Send `list` to see the profiles and pages Deck Director can switch, and what each deck is showing.
 - The profile must be [adopted](adopting).
 - Put a Set Home Page key on page 1 of each profile, so Deck Director knows which profile is showing.

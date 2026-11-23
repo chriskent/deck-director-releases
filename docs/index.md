@@ -28,13 +28,23 @@ Stream Deck can't be told to change page by another program. Deck Director liste
 
 ## Supported decks
 
-Stream Deck + XL, Stream Deck XL, Stream Deck +, Stream Deck (15-key, including MK.2 and Scissor Keys), Stream Deck Mini, Stream Deck Neo, Virtual Stream Deck and Stream Deck Mobile. Windows only, Stream Deck 7.1 or later.
+Stream Deck + XL, Stream Deck XL, Stream Deck +, Stream Deck (15 keys, including MK.2 and Scissor Keys), Stream Deck Neo, Stream Deck Mini, Virtual Stream Deck and Stream Deck Mobile. Windows only, Stream Deck 7.1 or later. See [Supported decks](decks) for example layouts and model numbers.
+
+## The Deck Director Console
+
+See every deck and profile, adopt a profile with one switch, and build and test the messages that switch it, all in your browser.
+
+![The Deck Director Console's message builder](assets/console-builder.png)
+
+[More about the Console](console){: .btn }
 
 ## Where next
 
 | | |
 |---|---|
 | [Getting started](getting-started) | Install, adopt a profile, send your first message |
+| [Deck Director Console](console) | Adopt profiles, and build and test messages, in your browser |
+| [Supported decks](decks) | Every deck, with example layouts and model numbers |
 | [Messages](messages) | Every message Deck Director understands |
 | [Choosing the deck, profile and page](choosing) | Targeting a particular deck or profile |
 | [Adopting profiles](adopting) | Letting Deck Director switch your own profiles |

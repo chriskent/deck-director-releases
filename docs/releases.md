@@ -1,6 +1,6 @@
 ---
 title: Version history
-nav_order: 9
+nav_order: 11
 ---
 
 # Version history
