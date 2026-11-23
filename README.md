@@ -10,7 +10,7 @@ Switch your Stream Deck's pages from any app that can send a UDP or TCP message:
 - Back follows a breadcrumb; Previous retraces your exact path; Home goes home.
 - Choose the deck and profile in the message, or use the one showing.
 - Works on your own profiles: adopt up to 50, shared across all your decks.
-- Stream Deck + XL, XL, +, Virtual Stream Deck and Stream Deck Mobile. Windows, Stream Deck 7.1 or later.
+- Stream Deck + XL, XL, +, Stream Deck (15-key), Mini, Neo, Virtual Stream Deck and Stream Deck Mobile. Windows, Stream Deck 7.1 or later.
 
 ## Quick start
 

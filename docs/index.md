@@ -28,7 +28,7 @@ Stream Deck can't be told to change page by another program. Deck Director liste
 
 ## Supported decks
 
-Stream Deck + XL, Stream Deck XL, Stream Deck +, Virtual Stream Deck and Stream Deck Mobile. Windows only, Stream Deck 7.1 or later.
+Stream Deck + XL, Stream Deck XL, Stream Deck +, Stream Deck (15-key, including MK.2 and Scissor Keys), Stream Deck Mini, Stream Deck Neo, Virtual Stream Deck and Stream Deck Mobile. Windows only, Stream Deck 7.1 or later.
 
 ## Where next
 

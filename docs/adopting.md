@@ -54,7 +54,7 @@ The top line says whether the profile the key is on is adopted. The bottom line 
 
 ## Limits
 
-Up to **50 profiles** can be adopted at once, shared across all your decks: any mix of Stream Deck + XL, XL, Stream Deck +, Virtual Stream Deck and Stream Deck Mobile. The Adopt Profile key and the adopt tool's list both show how many are in use. Releasing a profile frees its slot for another.
+Up to **50 profiles** can be adopted at once, shared across all your decks: any mix of Stream Deck + XL, XL, Stream Deck +, Stream Deck (15-key), Mini, Neo, Virtual Stream Deck and Stream Deck Mobile. The Adopt Profile key and the adopt tool's list both show how many are in use. Releasing a profile frees its slot for another.
 
 ## Don't duplicate an adopted profile
 

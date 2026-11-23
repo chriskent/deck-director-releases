@@ -7,6 +7,11 @@ nav_order: 9
 
 Downloads for every version are on the [Releases page](https://github.com/chriskent/deck-director-releases/releases).
 
+## 1.3.0
+
+- Profiles on the 15-key **Stream Deck** (original, MK.2 and Scissor Keys), **Stream Deck Mini** and **Stream Deck Neo** can be adopted and switched.
+- Deck Director Console: each deck shows its model number beside its name.
+
 ## 1.2.3
 
 - Fixed: profiles on a newer revision of the Stream Deck XL (model `20GAT9902`) showed as unsupported and couldn't be adopted. Every revision of the XL, Stream Deck + and Stream Deck + XL is now recognised.
