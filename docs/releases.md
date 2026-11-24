@@ -7,6 +7,10 @@ nav_order: 11
 
 Downloads for every version are on the [Releases page](https://github.com/chriskent/deck-director-releases/releases).
 
+## 1.4.1
+
+- Auto Pages has the same look as the Deck Director Console: the same status pills, deck cards, tables, switches and fields.
+
 ## 1.4.0
 
 - New: **[Auto Pages](auto-pages.md)** follows your flight in Microsoft Flight Simulator and switches your Stream Deck to the page for each stage (Startup, Taxi, Takeoff, Cruise, Approach, Landing, Shutdown). Start it from the Start menu: Deck Director → Deck Director Auto Pages.

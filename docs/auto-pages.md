@@ -7,7 +7,7 @@ nav_order: 8.5
 
 Deck Director Auto Pages follows your flight in Microsoft Flight Simulator and switches your Stream Deck to the page for each stage of the flight. It comes with Deck Director 1.4.0 and later.
 
-![The Auto Pages page on approach: the stage, why it changed, the stages already flown in blue, and live readings from the simulator](assets/auto-pages-overview.png)
+![The Auto Pages page on approach: the stage in amber, why it changed, the stages already flown in blue, and live readings from the simulator](assets/auto-pages-overview.png)
 
 ## Setting it up
 
@@ -16,7 +16,7 @@ Deck Director Auto Pages follows your flight in Microsoft Flight Simulator and s
 3. **Start Auto Pages** from the Start menu: **Deck Director → Deck Director Auto Pages**. A small window opens minimised (keep it open while you fly) and its page opens in your browser.
 4. **Turn AUTO on**, on the page or with a Hangar Control key (see below).
 
-Under **Decks**, the page shows what each deck is showing and which of its pages it found for each stage. The current stage's page is amber, the page showing is outlined, and a dashed box means there's no page for that stage.
+Under **Decks**, the page shows what each deck is showing and which page it found for each stage. **Now** marks the current stage's page, **Showing** the page on the deck, and **No page** a stage it couldn't find.
 
 ![Decks: the Stream Deck + XL with all seven stage pages found, following the stages; a Virtual Stream Deck with no stage pages, never switched](assets/auto-pages-decks.png)
 
