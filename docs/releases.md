@@ -7,6 +7,11 @@ nav_order: 11
 
 Downloads for every version are on the [Releases page](https://github.com/chriskent/deck-director-releases/releases).
 
+## 1.4.0
+
+- New: **[Auto Pages](auto-pages.md)** follows your flight in Microsoft Flight Simulator and switches your Stream Deck to the page for each stage (Startup, Taxi, Takeoff, Cruise, Approach, Landing, Shutdown). Start it from the Start menu: Deck Director → Deck Director Auto Pages.
+- Faster: the `list` message answers in under a tenth of a second (it used to take 1–2 seconds).
+
 ## 1.3.0
 
 - Profiles on the 15-key **Stream Deck** (original, MK.2 and Scissor Keys), **Stream Deck Mini** and **Stream Deck Neo** can be adopted and switched.
